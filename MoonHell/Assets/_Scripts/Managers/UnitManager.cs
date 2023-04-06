@@ -40,6 +40,10 @@ public class UnitManager : StaticInstance<UnitManager>
         StartCoroutine(CurrentCoroutine);
     }
 
+    /// <summary>
+    /// Coroutine che gestisce lo spawn dei mostri
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator HandleHuntingPhase()
     {
         yield return null;
