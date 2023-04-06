@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d75d61c1f194cd428ca9b0825ee57d3, type: 3}
+  m_Name: Fury
+  m_EditorClassIdentifier: 
+  _SpellPrefab: {fileID: 1327299741427965739, guid: 7c0b6dbdf15c975479814fcb3e79d148, type: 3}
+  _spellBaseStats:
+  - baseDmg: 0
+    defPen: 0
+    cd: 0
+    ScalingProiezione: 0
+    ScalingMaterializzazione: 1
+    ScalingManipolazione: 0
+    ScalingManifestazione: 0
+    ScalingAts: 0
+    ScalingCdr: 0
+  - baseDmg: 0
+    defPen: 0
+    cd: 0
+    ScalingProiezione: 0
+    ScalingMaterializzazione: 1.1
+    ScalingManipolazione: 0
+    ScalingManifestazione: 0
+    ScalingAts: 0
+    ScalingCdr: 0
+  - baseDmg: 0
+    defPen: 0
+    cd: 0
+    ScalingProiezione: 0
+    ScalingMaterializzazione: 1.2
+    ScalingManipolazione: 0
+    ScalingManifestazione: 0
+    ScalingAts: 0
+    ScalingCdr: 0
+  _spellSizeStats:
+  - range: 0
+    size: 0
+    duration: 0
+    radius: 0
+  - range: 0
+    size: 0
+    duration: 0
+    radius: 0
+  _spiritSchool: 0
+  _menuIcon: {fileID: -1336754037, guid: 40cc7af3e0e129e4c8ac5313da6a1f7c, type: 3}
+  _spellName: Fury School

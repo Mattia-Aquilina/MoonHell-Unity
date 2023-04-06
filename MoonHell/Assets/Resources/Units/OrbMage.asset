@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805bfa023672f0a48a0656916631ac40, type: 3}
+  m_Name: OrbMage
+  m_EditorClassIdentifier: 
+  _baseStats:
+    MaxHP: 100
+    hp: 100
+    ms: 2
+    di: 1
+    dr: 1
+  unityPrefab: {fileID: 5712027488109361421, guid: 08c8fae4e1712304dbcb79cfbc353104, type: 3}
+  Descrizione: Ah si
+  MenuSprite: {fileID: -1870550525, guid: cb1d49646255b2a4e99a6aa4ef26f07b, type: 3}
+  _enemyType: 2
+  _enemyStats:
+    spiritDrop: 2
+    exp: 15
+    def: 5
+    damage: 50
+  Planet: 00000000
+  SkillStatsList:
+  - key: 0
+    val: 0.3
+  - key: 1
+    val: 3
+  - key: 2
+    val: 0.5

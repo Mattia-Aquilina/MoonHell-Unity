@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805bfa023672f0a48a0656916631ac40, type: 3}
+  m_Name: ToothMonster
+  m_EditorClassIdentifier: 
+  _baseStats:
+    MaxHP: 30
+    hp: 30
+    ms: 7
+    di: 1
+    dr: 1
+  unityPrefab: {fileID: 2160410340595720897, guid: 4bbeed888a53cdb488b574f47366aad2, type: 3}
+  Descrizione: ah si
+  MenuSprite: {fileID: -558016397, guid: 30253609067654a45ab20b54c7a7e92b, type: 3}
+  _enemyType: 0
+  _enemyStats:
+    spiritDrop: 1
+    exp: 5
+    def: 5
+    damage: 15
+  Planet: 
+  SkillStatsList: []

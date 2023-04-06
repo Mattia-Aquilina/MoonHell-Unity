@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=3a0e044838085524e86c3fb2421d410a&amp;type=3#MainMenu" />
+    <MainMenuManager style="width: 100%; height: 100%;">
+        <AspectRatioPanel style="width: 100%; height: 100%; top: 0; right: 2px; left: -1px; bottom: 1px;">
+            <ui:VisualElement style="width: 100%; height: 100%; flex-direction: row; align-items: auto; justify-content: flex-end;">
+                <ui:VisualElement style="width: 40%; height: 100%; align-items: center; justify-content: flex-start; padding-top: 7%; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                    <ui:VisualElement name="NewGame" class="MainMenuButton" style="background-image: url(&apos;project://database/Assets/Sprites/UI/MainMenu/UI%20-%20Words2.png?fileID=21300000&amp;guid=6f65fb918e9a7b94091a145b5431770b&amp;type=3#UI - Words2&apos;);" />
+                    <ui:VisualElement name="Continue" class="MainMenuButton" style="background-image: url(&apos;project://database/Assets/Sprites/UI/MainMenu/UI%20-%20Words1.png?fileID=21300000&amp;guid=289b468c4ff988344a8c37db44fe9ee2&amp;type=3#UI - Words1&apos;); align-items: auto; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; -unity-slice-bottom: 0;" />
+                    <ui:VisualElement name="Settings" class="MainMenuButton" style="background-image: url(&apos;project://database/Assets/Sprites/UI/MainMenu/UI%20-%20Words4.png?fileID=21300000&amp;guid=96eada5d9e284714eb6c59d01ca0d217&amp;type=3#UI - Words4&apos;);" />
+                    <ui:VisualElement name="Quit" class="MainMenuButton" style="background-image: url(&apos;project://database/Assets/Sprites/UI/MainMenu/UI%20-%20Words3.png?fileID=21300000&amp;guid=029f8d78676a069419787e7f0b4e164e&amp;type=3#UI - Words3&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </AspectRatioPanel>
+    </MainMenuManager>
+</ui:UXML>

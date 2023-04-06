@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364aea28ebeb161489c1c5064ccf3d7b, type: 3}
+  m_Name: Wooden Shield
+  m_EditorClassIdentifier: 
+  _descrizione: A wooden shield
+  _nome: Wooden Shield
+  _itemType: 2
+  _menuIcon: {fileID: 1923975933, guid: 40cc7af3e0e129e4c8ac5313da6a1f7c, type: 3}
+  _baseStatsEmp:
+    MaxHP: 10
+    hp: 0
+    ms: 0
+    di: 0
+    dr: 0
+  _heroStatsEmp:
+    proiezione: 5
+    materializzazione: 0
+    manipolazione: 0
+    manifestazione: 0
+    ats: 0
+    cdr: 0
+  _spiritTypes: 03000000
+  _ingredients: []
+  buildCost: 0

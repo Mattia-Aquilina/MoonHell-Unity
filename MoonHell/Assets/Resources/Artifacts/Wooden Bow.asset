@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364aea28ebeb161489c1c5064ccf3d7b, type: 3}
+  m_Name: Wooden Bow
+  m_EditorClassIdentifier: 
+  _descrizione: A simple bow made of Wood
+  _nome: Wooden bow
+  _itemType: 3
+  _menuIcon: {fileID: 1453396805, guid: 40cc7af3e0e129e4c8ac5313da6a1f7c, type: 3}
+  _baseStatsEmp:
+    hp: 0
+    ms: 0
+    di: 0
+    dr: 0
+  _heroStatsEmp:
+    proiezione: 0
+    materializzazione: 7
+    manipolazione: 0
+    manifestazione: 0
+    ats: 0.15
+    cdr: 0
+  _spiritTypes: 02000000
+  _ingredients: []
+  buildCost: 0

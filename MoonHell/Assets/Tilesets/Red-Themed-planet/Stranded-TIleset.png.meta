@@ -1,0 +1,1739 @@
+fileFormatVersion: 2
+guid: 86eb366abc50c3e41bca408270bb2d42
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Block-1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 5}
+        - {x: 2, y: 8}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: a683104fcf7c1c446a542c429dd51f73
+      internalID: 2064722169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 5}
+        - {x: 2, y: 8}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: a136770e6001b554a85370ced1718547
+      internalID: 1181460587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 8}
+        - {x: -2, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 7}
+        - {x: 8, y: 5}
+      - - {x: 8, y: 5}
+        - {x: 8, y: 7}
+        - {x: 8, y: 5}
+        - {x: 8, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e5b052caea5384ab1fc871741555c0
+      internalID: -1487693535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 5}
+        - {x: 2, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7831021ec4ef784d9748c0ee6c66a3e
+      internalID: 620720718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 6, y: -6}
+        - {x: 8, y: -5}
+        - {x: 8, y: 5}
+        - {x: 2, y: 8}
+      - - {x: 7, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7de187fb10aa84f9da2844a4629dae
+      internalID: -54845287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 1, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 5}
+        - {x: 2, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec105066de032454b85015baf6e62400
+      internalID: -589085781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4}
+        - {x: -8, y: 1}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 2, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b5d7331b23134a93ab2801a5c224d
+      internalID: 831829485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6}
+        - {x: -8, y: 3}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 2, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a112e5aedbff7d14aac528552fbe3c02
+      internalID: -1830068729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4}
+        - {x: -8, y: 1}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 2, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e517c888585b041b9ad6f5fb287fce
+      internalID: 1485315849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block-9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 6}
+        - {x: -8, y: 3}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 2, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531f6c81ad44d304bacc37ca40790b5f
+      internalID: -1090638352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4}
+        - {x: -8, y: 1}
+        - {x: -8, y: -5}
+        - {x: -2, y: -8}
+        - {x: 4, y: -7}
+        - {x: 8, y: -5}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 2, y: 4}
+      - - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4bf310e90c44746a986abc4ebf664c
+      internalID: -1396213924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e98aef40cef2d747a421caab601db84
+      internalID: 1177036396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -3}
+        - {x: -5, y: 2}
+        - {x: -3, y: 2}
+        - {x: -3, y: -3}
+        - {x: 0, y: -6}
+        - {x: 0, y: -2}
+        - {x: 2, y: -1}
+        - {x: 1, y: -2}
+        - {x: 1, y: -5}
+        - {x: 3, y: -5}
+        - {x: 3, y: -6}
+        - {x: 0, y: -6}
+      - - {x: 2, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: -1}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b50e17c3dd1764d80851fd71f602db
+      internalID: -1081726176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -5}
+        - {x: -6, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: -5}
+      - - {x: 1, y: -6}
+        - {x: 1, y: 3}
+        - {x: 7, y: 3}
+        - {x: 7, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3365fa4fbc3e824ab6c180dab23a293
+      internalID: 59302024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: 0, y: 1}
+        - {x: 4, y: 1}
+        - {x: 4, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c18a6ca5ec38324c83987c4b56e8421
+      internalID: 336079543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -1}
+        - {x: -6, y: 6}
+        - {x: -3, y: 6}
+        - {x: -3, y: -1}
+      - - {x: -2, y: 0}
+        - {x: -2, y: 3}
+        - {x: 0, y: 3}
+      - - {x: 0, y: -4}
+        - {x: 0, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: -4}
+      - - {x: 4, y: 0}
+        - {x: 4, y: 2}
+        - {x: 6, y: 2}
+        - {x: 6, y: 0}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9250814c3778b4bb3ba181989ba0cf
+      internalID: 1588334793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -6}
+        - {x: -6, y: -2}
+        - {x: -5, y: 4}
+        - {x: -2, y: 6}
+        - {x: 2, y: 6}
+        - {x: 5, y: 4}
+        - {x: 5, y: -5}
+      - - {x: -5, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -6}
+      - - {x: 5, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -6}
+      - - {x: 2, y: -7}
+        - {x: 3, y: 0}
+        - {x: 7, y: 0}
+        - {x: 4, y: -7}
+      - - {x: 4, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -7}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: f885c88b3c7727e43870fad0dd18bc1b
+      internalID: 90072570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -4}
+        - {x: -6, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -4}
+      - - {x: -2, y: -5}
+        - {x: -2, y: 2}
+        - {x: 1, y: 2}
+        - {x: 1, y: -5}
+      - - {x: 1, y: -6}
+        - {x: 1, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f28d0742293d7d488702d28e0e265e5
+      internalID: 561298752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -5}
+        - {x: -1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608c7e8355e072b44a6d2507fdda98d4
+      internalID: 2031152480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -6}
+        - {x: -3, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47285d54ed19aad4fb5fb3d2c495edff
+      internalID: -321028571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -5}
+        - {x: -7, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -5}
+      - - {x: -2, y: -3}
+        - {x: -2, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: -3}
+      - - {x: 3, y: -6}
+        - {x: 3, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1513d574450dd64d8b51ff7167ea4da
+      internalID: -1919491958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: 0, y: -2}
+        - {x: 1, y: -2}
+        - {x: 1, y: -4}
+      - - {x: 2, y: -5}
+        - {x: 2, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b1ae45073021f4fa5d388df23cf9f7
+      internalID: 1613037828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: 0, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3be88006305a84d9745a4bb8016003
+      internalID: 1111497327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -5}
+        - {x: -2, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c808807eeea7444a8f6bc012bc87e26
+      internalID: -208452534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -5}
+        - {x: -6, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8324d927cc65244bb4dac15838e252
+      internalID: -82692650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -4}
+        - {x: -2, y: 2}
+        - {x: 6, y: 2}
+        - {x: 6, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e0908fe13214541a617e3e235992c1
+      internalID: 7776771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -3}
+        - {x: -5, y: 2}
+        - {x: -3, y: 2}
+        - {x: -3, y: -3}
+      - - {x: 0, y: -6}
+        - {x: 0, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f504c9b448c384eaa2e67a26fa971f
+      internalID: 1963642806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -5}
+        - {x: -6, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: -5}
+      - - {x: 1, y: -6}
+        - {x: 1, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab9b5faad935784aaefc9c6f95ffd69
+      internalID: -1437756762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -4}
+        - {x: -1, y: 1}
+        - {x: 4, y: 1}
+        - {x: 4, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea2f5201b4ac9f49b345ee7a9e48685
+      internalID: -2005569965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -1}
+        - {x: -6, y: 6}
+        - {x: -3, y: 6}
+        - {x: -3, y: -1}
+      - - {x: -2, y: 0}
+        - {x: -2, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+      - - {x: 3, y: -5}
+        - {x: 3, y: 2}
+        - {x: 6, y: 2}
+        - {x: 6, y: -5}
+      - - {x: 0, y: -5}
+        - {x: 0, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff714c16db9202c408481b6e1d2ab7c4
+      internalID: 2025060783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -5}
+        - {x: -6, y: -2}
+        - {x: -5, y: 4}
+        - {x: 1, y: 6}
+        - {x: 2, y: 6}
+        - {x: 4, y: 3}
+        - {x: 6, y: -1}
+        - {x: 6, y: -4}
+        - {x: 3, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5d05ab99e96bf47a7f097213b88de1
+      internalID: -1682816586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -4}
+        - {x: -6, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -4}
+      - - {x: -2, y: -5}
+        - {x: -2, y: 2}
+        - {x: 1, y: 2}
+        - {x: 1, y: -5}
+      - - {x: 1, y: -6}
+        - {x: 1, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e33488c5a58674c992799fedfa4635
+      internalID: -149160997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: -5}
+        - {x: -1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c4e002f3436f74b9c00c348c21f997
+      internalID: 440993110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -6}
+        - {x: -3, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: -6}
+      - - {x: 0, y: -4}
+        - {x: 0, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5d997742bad204a97ed63935b8d81b
+      internalID: 1918223383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -5}
+        - {x: -7, y: -2}
+        - {x: -2, y: -2}
+        - {x: -2, y: -5}
+      - - {x: -1, y: -3}
+        - {x: -2, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: -3}
+      - - {x: -2, y: -3}
+        - {x: -2, y: -3}
+        - {x: -2, y: -3}
+      - - {x: 3, y: -6}
+        - {x: 3, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dbdd62ab5d37446a3646e789aa673b
+      internalID: -1575875850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: 0, y: -2}
+        - {x: 1, y: -2}
+        - {x: 1, y: -4}
+      - - {x: 2, y: -5}
+        - {x: 2, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9194b5313b32448b5caee8ade9ab10
+      internalID: -854336047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: 0, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593158d24da18614a95abc12497702ff
+      internalID: 1380343371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -5}
+        - {x: -2, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc61c25c598690d4487c63a249d18f21
+      internalID: 427891644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -5}
+        - {x: -7, y: 2}
+        - {x: 3, y: 2}
+        - {x: 5, y: -1}
+        - {x: 6, y: -5}
+      - - {x: -7, y: 2}
+        - {x: -7, y: 2}
+        - {x: -7, y: 2}
+        - {x: -6, y: 2}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2d12c1a8f7df489e2dbc9c627b976
+      internalID: -533178137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -4}
+        - {x: -2, y: 2}
+        - {x: 5, y: 2}
+        - {x: 5, y: -4}
+      - - {x: -4, y: -6}
+        - {x: -4, y: -3}
+        - {x: 1, y: -5}
+        - {x: -1, y: -6}
+      - - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 1, y: -6}
+        - {x: 1, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bf44d409dabda4a9b3a9ca48bcda38
+      internalID: -1044212862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637c1eb92e9bded4dab9ae0a30b64835
+      internalID: 953618574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d1b03dcb87de4684743ba2c07ce1a
+      internalID: 142101324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db7acdc9f477644b5615b4add36122
+      internalID: -2078220196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f1a01e6a3592646a3d09cbbafa48ad
+      internalID: -1931500778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ab34414e32ec543a6938da6be897e5
+      internalID: -1079061386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e4cb12c9f132641923e1f5deadd447
+      internalID: 469270995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 0}
+        - {x: -7, y: -2}
+        - {x: -7, y: -3}
+        - {x: -3, y: -5}
+        - {x: 2, y: -5}
+        - {x: 3, y: -6}
+        - {x: 3, y: -5}
+        - {x: 5, y: -2}
+        - {x: 5, y: 1}
+        - {x: 1, y: 1}
+      - - {x: 3, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9126b5d62b4731e478614cd3c4429c30
+      internalID: -274870064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f104df473660774d8fc8de0177b1c06
+      internalID: -1162293380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f791ee693913144c8187e0b030cd6ca
+      internalID: -283308771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a204d9f02aa7cd4e8e42e76d111fe26
+      internalID: -132454298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -8.5}
+        - {x: -3, y: 9.5}
+        - {x: 3, y: 9.5}
+        - {x: 3, y: -8.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0957c3b0451ea4e85ecb67f245dd57
+      internalID: -226114112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -6.5}
+        - {x: -3, y: 7.5}
+        - {x: 2, y: 7.5}
+        - {x: 2, y: -6.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19921f3893ab6542992d66edb2a50d3
+      internalID: -707607858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -10.5}
+        - {x: -6, y: 2.5}
+        - {x: -6, y: 5.5}
+        - {x: -5, y: 10.5}
+        - {x: 0, y: 10.5}
+        - {x: 2, y: 3.5}
+        - {x: 2, y: -5.5}
+        - {x: 8, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c90c3e534df7044b2593dec358b770
+      internalID: 257791638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046452bc7734d05499f4e05cfcc36466
+      internalID: -697685659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranded-TIleset_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340c77cb2b3c3aa448f154fd681472eb
+      internalID: -1465210281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stranded-TIleset_43: -1931500778
+      Stranded-TIleset_36: 1380343371
+      Stranded-TIleset_23: -208452534
+      Stranded-TIleset_56: -707607858
+      Stranded-TIleset_15: 1588334793
+      Stranded-TIleset_24: -82692650
+      Stranded-TIleset_37: 427891644
+      Stranded-TIleset_57: 257791638
+      Stranded-TIleset_40: 953618574
+      Stranded-TIleset_38: -533178137
+      Stranded-TIleset_22: 1111497327
+      Stranded-TIleset_53: -132454298
+      Stranded-TIleset_35: -854336047
+      Stranded-TIleset_58: 2059295977
+      Stranded-TIleset_39: -1044212862
+      Stranded-TIleset_16: 90072570
+      Stranded-TIleset_18: 2031152480
+      Block-8: -1830068729
+      Stranded-TIleset_26: 1963642806
+      Stranded-TIleset_28: -2005569965
+      Block-5: -54845287
+      Stranded-TIleset_60: -194249861
+      Stranded-TIleset_14: 336079543
+      Stranded-TIleset_42: -2078220196
+      Block-: 1485315849
+      Stranded-TIleset_30: -1682816586
+      Stranded-TIleset_27: -1437756762
+      Stranded-TIleset_48: -274870064
+      Stranded-TIleset_41: 142101324
+      Stranded-TIleset_19: -321028571
+      Stranded-TIleset_13: 59302024
+      Stranded-TIleset_44: -1079061386
+      Stranded-TIleset_50: 1436940916
+      Stranded-TIleset_52: -380518451
+      Block-3: -1487693535
+      Stranded-TIleset_31: -149160997
+      Block-6: -589085781
+      Stranded-TIleset_33: 1918223383
+      Stranded-TIleset_34: -1575875850
+      Stranded-TIleset_55: -226114112
+      Block-1: 2064722169
+      Stranded-TIleset_49: -1162293380
+      Stranded-TIleset_21: 1613037828
+      Block-9: -1090638352
+      Stranded-TIleset_29: 2025060783
+      Stranded-TIleset_45: 469270995
+      Stranded-TIleset_54: 1973188349
+      Stranded-TIleset_47: 867468337
+      Block-2: 1181460587
+      Stranded-TIleset_12: -1081726176
+      Block-4: 620720718
+      Stranded-TIleset_59: -697685659
+      Stranded-TIleset_46: -1490499664
+      Stranded-TIleset_11: 1177036396
+      Stranded-TIleset_32: 440993110
+      Stranded-TIleset_25: 7776771
+      Stranded-TIleset_61: -1465210281
+      Block-7: 831829485
+      Stranded-TIleset_10: -1396213924
+      Stranded-TIleset_51: -283308771
+      Stranded-TIleset_17: 561298752
+      Stranded-TIleset_20: -1919491958
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: 76355198fb9dfab46b928f75f933e199
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 288
+        width: 117
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32574427bff22148af3ecc094422e82
+      internalID: -819042651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 288
+        width: 117
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf8b638510aedc49983c40b3debf74a
+      internalID: 962605961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 288
+        width: 117
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4fc25e5e159d7409eaf6283cff204c
+      internalID: 121495309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 288
+        width: 117
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e2bca07fbe7354883bd70588773ab8
+      internalID: -1427335424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_6
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 288
+        width: 117
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f3709a357c2eb40b5399d538e8ee41
+      internalID: 1716782737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_8
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 288
+        width: 117
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a47d5c17474e040907598bdb119bc5
+      internalID: -856687819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_9
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 288
+        width: 117
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886100da025eb4f4aacf4ca88a96534b
+      internalID: -875355854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 288
+        width: 117
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c713ca9b1148b479794a36c2b50439
+      internalID: -858635685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ee32bf9220d114f8da6e26c8c2173e
+      internalID: -1471107695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd04b6a13678f6543855ac48b20e357a
+      internalID: 475951862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a2a51e9233bf146934950a98de3011
+      internalID: 1554368919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ceea271abbed74e9df2bc726272178
+      internalID: 234977812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_15
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76c0ec74e1bd9649bff33dfdce2d00e
+      internalID: 932231818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_16
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f137d1404da634a4ab003a7bfa345b4f
+      internalID: -1607397502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_17
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ed556b1802bd04492613138341be8e
+      internalID: 463315153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_18
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cc314e85cbd8949a064f81fe7ec0b7
+      internalID: -924436020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_19
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8c8ffd2834d9b46996e6c037c581f2
+      internalID: 1160710014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_20
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20642842d3bcd854ea2a44a760383a96
+      internalID: -758299305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_21
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d0905c06cc55544b30e1c59cdf8cdc
+      internalID: 1410787358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_22
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24377d22e4baabd4bba875e1eeff7236
+      internalID: -1493627683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_23
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3e9c6a175510345924dcce236c2711
+      internalID: -1824070070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_24
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc00b93a0ea75c3408d95658c931d65d
+      internalID: -1598932793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_25
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 192
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aca44e227131e43b716c03ea42ebf8
+      internalID: -1956413564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238497d0fcd67ac4ba9f3ca0bdf80ea7
+      internalID: -344746375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3a4b23e2730bd449e9e5448966d420
+      internalID: -714717815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b34ce179b94744985f8f71fd92d877
+      internalID: 1665416561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_29
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19677c74c236a34daacc6254f038dd4
+      internalID: -282878571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_30
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042a5aeb9949d9c4b829195275f0e05f
+      internalID: 179867617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_31
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc20fc147f198fa4a8ebf5334fd535cf
+      internalID: 1785138197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_32
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea06b5cbcc716784e9936ec9ef9ec5bb
+      internalID: -1254315358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_33
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 96
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03f158d62f0ff64f917a0092c512a32
+      internalID: -1302208243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a89a8409b2f9d4ebc3698d8ed40100
+      internalID: 445012452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_35
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a87ab4f30de194e956b7c5fbb3afc3
+      internalID: 448533195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb96f2741c0f984fbf4e740eccbf77a
+      internalID: -157898377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_37
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e1caf9aa49124894e95d9c8fdf26c
+      internalID: 413288719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_38
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39271f0922f80374db508dedecdbc1b6
+      internalID: 483018546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_39
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793fb562adb8f654a81f7f450d37f0fd
+      internalID: 454299803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_40
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e424c77c059294295b4c0ce61fb941
+      internalID: -691069507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_41
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4844c2d286f8bd46abc51fe26a321cc
+      internalID: -209272264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_42
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e29414138108de449f3182b328132e5
+      internalID: 1991322937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_43
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cde2a721d551c347a5fb3b3aa11f7a1
+      internalID: 2054531362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_44
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a51f404698f1041ac3f3741dfff65f
+      internalID: -1083213994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_45
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c8d281054b2b428ea5a20f7f27c0b
+      internalID: 1594169464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_46
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc1068417a57634c9f0abdc4e216233
+      internalID: -826105834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_47
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fc75294dfbcc747a9f47a1aa3ba522
+      internalID: 61134157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_48
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab94be88b4ebb3d4e810ab5384a1d89c
+      internalID: 866476071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood Tree 2 Sprite Sheet 128x96_49
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 0
+        width: 117
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c9260e8195355428dc2e89004c9784
+      internalID: -1919773875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Blood Tree 2 Sprite Sheet 128x96_8: -856687819
+      Blood Tree 2 Sprite Sheet 128x96_44: -1083213994
+      Blood Tree 2 Sprite Sheet 128x96_3: -1427335424
+      Blood Tree 2 Sprite Sheet 128x96_49: -1919773875
+      Blood Tree 2 Sprite Sheet 128x96_2: 121495309
+      Blood Tree 2 Sprite Sheet 128x96_27: -714717815
+      Blood Tree 2 Sprite Sheet 128x96_41: -209272264
+      Blood Tree 2 Sprite Sheet 128x96_13: 1554368919
+      Blood Tree 2 Sprite Sheet 128x96_9: -875355854
+      Blood Tree 2 Sprite Sheet 128x96_40: -691069507
+      Blood Tree 2 Sprite Sheet 128x96_1: 962605961
+      Blood Tree 2 Sprite Sheet 128x96_46: -826105834
+      Blood Tree 2 Sprite Sheet 128x96_33: -1302208243
+      Blood Tree 2 Sprite Sheet 128x96_4: -105711862
+      Blood Tree 2 Sprite Sheet 128x96_16: -1607397502
+      Blood Tree 2 Sprite Sheet 128x96_24: -1598932793
+      Blood Tree 2 Sprite Sheet 128x96_35: 448533195
+      Blood Tree 2 Sprite Sheet 128x96_21: 1410787358
+      Blood Tree 2 Sprite Sheet 128x96_23: -1824070070
+      Blood Tree 2 Sprite Sheet 128x96_25: -1956413564
+      Blood Tree 2 Sprite Sheet 128x96_34: 445012452
+      Blood Tree 2 Sprite Sheet 128x96_43: 2054531362
+      Blood Tree 2 Sprite Sheet 128x96_28: 1665416561
+      Blood Tree 2 Sprite Sheet 128x96_38: 483018546
+      Blood Tree 2 Sprite Sheet 128x96_30: 179867617
+      Blood Tree 2 Sprite Sheet 128x96_7: -2142798101
+      Blood Tree 2 Sprite Sheet 128x96_37: 413288719
+      Blood Tree 2 Sprite Sheet 128x96_12: 475951862
+      Blood Tree 2 Sprite Sheet 128x96_20: -758299305
+      Blood Tree 2 Sprite Sheet 128x96_32: -1254315358
+      Blood Tree 2 Sprite Sheet 128x96_15: 932231818
+      Blood Tree 2 Sprite Sheet 128x96_36: -157898377
+      Blood Tree 2 Sprite Sheet 128x96_0: -819042651
+      Blood Tree 2 Sprite Sheet 128x96_17: 463315153
+      Blood Tree 2 Sprite Sheet 128x96_31: 1785138197
+      Blood Tree 2 Sprite Sheet 128x96_45: 1594169464
+      Blood Tree 2 Sprite Sheet 128x96_29: -282878571
+      Blood Tree 2 Sprite Sheet 128x96_39: 454299803
+      Blood Tree 2 Sprite Sheet 128x96_22: -1493627683
+      Blood Tree 2 Sprite Sheet 128x96_18: -924436020
+      Blood Tree 2 Sprite Sheet 128x96_10: -858635685
+      Blood Tree 2 Sprite Sheet 128x96_47: 61134157
+      Blood Tree 2 Sprite Sheet 128x96_6: 1716782737
+      Blood Tree 2 Sprite Sheet 128x96_26: -344746375
+      Blood Tree 2 Sprite Sheet 128x96_5: 8386940
+      Blood Tree 2 Sprite Sheet 128x96_14: 234977812
+      Blood Tree 2 Sprite Sheet 128x96_11: -1471107695
+      Blood Tree 2 Sprite Sheet 128x96_48: 866476071
+      Blood Tree 2 Sprite Sheet 128x96_42: 1991322937
+      Blood Tree 2 Sprite Sheet 128x96_19: 1160710014
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
