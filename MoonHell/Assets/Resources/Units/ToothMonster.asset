@@ -15,7 +15,7 @@ MonoBehaviour:
   _baseStats:
     MaxHP: 30
     hp: 30
-    ms: 7
+    ms: 2
     di: 1
     dr: 1
   unityPrefab: {fileID: 2160410340595720897, guid: 4bbeed888a53cdb488b574f47366aad2, type: 3}
@@ -27,5 +27,8 @@ MonoBehaviour:
     exp: 5
     def: 5
     damage: 15
-  Planet: 
   SkillStatsList: []
+  spawnTime: 8
+  minGameTimeForSpawn: 0
+  maxParallelSpawns: 3
+  Planet: 00000000

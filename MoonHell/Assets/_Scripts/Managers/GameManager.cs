@@ -10,11 +10,11 @@ public class GameManager : StaticInstance<GameManager>
 {
     /// Variabili di lavoro del gioco
     public HeroBase HeroInstance { get; private set; }
-    //Instanza del controller
 
     [SerializeField] private HeroBase prefab;
 
     //public static readonly List<string> _StatsNames = new List<string> { "PRO", "MAT", "MNP", "MNF", "ATS", "CDR", "HP", "EXP" };
+    [Header("Campi gioco")]
     /// <summary>
     /// Costante k usata nel calcolo degli exp richiesti
     /// </summary>
@@ -23,18 +23,20 @@ public class GameManager : StaticInstance<GameManager>
     /// Costante h usata nel calcolo degli exp richiesti
     /// </summary>
     public static float hConstLevels = 1;
-
-
-    [SerializeField]private List<GameObject> _ManagersList;
     /// <summary>
     /// Exp di base richiesti per salire di livello, utilizzato nel calcolo degli exp richiesti
     /// </summary>
     public static float baseExp = 200;
+
+    public PlanetType currentPlanet { get; private set; } = PlanetType.Magma;
+    public float currentGameTime { get; private set; }
+
+    [SerializeField]private List<GameObject> _ManagersList;
     //fine variabili 
     public static event Action<GameState> OnBeforeStateChanged;
     public static event Action<GameState> OnAfterStateChanged;
 
-    public GameState State { get; private set; } = GameState.Preparation;
+    [SerializeField] public GameState State { get; private set; } = GameState.Preparation;
 
     // Kick the game off with the first state
     void Start() => ChangeState(GameState.AssemblingResources);
@@ -54,16 +56,16 @@ public class GameManager : StaticInstance<GameManager>
                 ResourceSystem.Instance.AssembleResources();
                 break;
             case GameState.Menu:
-
                 break;
             case GameState.Preparation:
+                currentGameTime = 0f;
                 CreateManagers();
                 PreparePlayer();
                 break;
             case GameState.PreHunting:
                 break;
             case GameState.Hunting:
-
+                break;
             case GameState.Jump:
                 break;
             default:
@@ -73,6 +75,12 @@ public class GameManager : StaticInstance<GameManager>
         OnAfterStateChanged?.Invoke(newState);
         
         Debug.Log($"New state: {newState}");
+    }
+
+    private void Update()
+    {
+        if (State == GameState.Hunting) 
+            currentGameTime += Time.deltaTime;
     }
 
     /// <summary>

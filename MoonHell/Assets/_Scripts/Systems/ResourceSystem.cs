@@ -37,10 +37,13 @@ public class ResourceSystem : StaticInstance<ResourceSystem> {
         _SpellDict = _SpellList.ToDictionary(r => r.SpiritSchool, r => r);
 
         _HeroList = Resources.LoadAll<ScriptableHero>("HeroStats").ToList();
-        //Una volta caricate tutte le risorse necessarie, si cambia lo stato di gioco
+
+        
         _EnemyList = Resources.LoadAll<ScriptableEnemy>("Units").ToList();
+
         _EnemyDict = _EnemyList.ToDictionary(r => r.enemyType, r => r);
 
+       //Una volta caricate tutte le risorse necessarie, si cambia lo stato di gioco
         GameManager.Instance.ChangeState(GameState.Preparation);
     }
    
@@ -51,5 +54,16 @@ public class ResourceSystem : StaticInstance<ResourceSystem> {
     public ScriptableItemBase GetItem(ItemType name) => _ItemDict[name];
 
     public ScriptableEnemy GetEnemy(EnemyType type) => _EnemyDict[type];
+
+    public List<ScriptableEnemy> GetEnemyByPlanet(PlanetType planet)
+    {
+        List<ScriptableEnemy> enemyList = new();
+        foreach(var enemy in _EnemyList)
+        {
+            if (enemy.Planet.Contains(planet)) enemyList.Add(enemy);
+        }
+        return enemyList;
+    }
     public ScriptableSpellBase GetSpell(SpiritSchool spell) => _SpellDict[spell];
+
 }

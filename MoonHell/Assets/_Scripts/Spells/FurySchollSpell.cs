@@ -93,12 +93,12 @@ public class FurySchollSpell : SpellBase
         //Avviamo l'animazione
         heroInstance.SetAttacking(true);
         applyDamage();
-
-        yield return new WaitForSeconds(1 / heroInstance.HeroStats.ats);
-       
-        heroInstance.SetAttacking(false);
+        yield return new WaitForSeconds(1 / 2 * heroInstance.HeroStats.ats);
         heroInstance.Rigidbody().constraints = RigidbodyConstraints.FreezePositionY;
         heroInstance.Rigidbody().freezeRotation = true;
+
+        yield return new WaitForSeconds(1 / 2 * heroInstance.HeroStats.ats);
+        heroInstance.SetAttacking(false);
 
         _ComboWindow = ComboWindow();
         StartCoroutine(_ComboWindow);
@@ -113,13 +113,13 @@ public class FurySchollSpell : SpellBase
         heroInstance.SetAttacking(true);
         applyDamage();
 
-        yield return new WaitForSeconds(1 / heroInstance.HeroStats.ats);
-        
-
-
-        heroInstance.SetAttacking(false);
+        yield return new WaitForSeconds(1 /2* heroInstance.HeroStats.ats);
         heroInstance.Rigidbody().constraints = RigidbodyConstraints.FreezePositionY;
         heroInstance.Rigidbody().freezeRotation = true;
+
+        yield return new WaitForSeconds(1 / 2 * heroInstance.HeroStats.ats);
+        heroInstance.SetAttacking(false);
+        
 
         _ComboWindow = ComboWindow();
         StartCoroutine(_ComboWindow);
@@ -204,14 +204,15 @@ public class FurySchollSpell : SpellBase
 
     public void applyDamage()
     {
-
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, AttackRange);
+        var MovDir = new Vector3(Joystick.Instance.Horizontal, 0 ,Joystick.Instance.Vertical);
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position + MovDir.normalized/4, AttackRange);
 
         foreach (var collider in hitColliders)
         {
             //Siamo sicuri di avere collider solo di oggetti appartenenti alla classe enemyBase
             collider.GetComponent<EnemyUnitBase>()?.TakeDamage(GetDamage());
         }
+        
     }
 
     /// <summary>
@@ -224,15 +225,13 @@ public class FurySchollSpell : SpellBase
     /// <returns>Ritorna il danno calcolato</returns>
     public override int GetDamage()
     {
-        int damage = 0;
-        //Calcoliamo il danno
-
-        return damage;
+        return Mathf.RoundToInt(heroInstance.HeroStats.materializzazione * 0.8f + 30);
     }
 
     //DEBUG
-    private void OnDrawGizmos()
+    void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(transform.position, AttackRange);
+        var MovDir = new Vector3(Joystick.Instance.Horizontal, 0, Joystick.Instance.Vertical);
+        Gizmos.DrawSphere(transform.position + MovDir.normalized, AttackRange);
     }
 }

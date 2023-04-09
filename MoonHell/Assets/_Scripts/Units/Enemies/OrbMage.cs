@@ -94,7 +94,9 @@ public class OrbMage : EnemyUnitBase
         ForceState(Healing, 2 * channelTime);
         yield return new WaitForSeconds(channelTime);
 
-        
+        var healAmount = (int)Mathf.Min(stats.hp + stats.hp, stats.MaxHP);
+        PopupManager.Instance.DisplayHeal(this, healAmount);
+        stats.hp = healAmount;
         //perfrom heal
         yield return new WaitForSeconds(channelTime);
         canAttack = true;

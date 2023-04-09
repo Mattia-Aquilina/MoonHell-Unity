@@ -59,19 +59,20 @@ public class BallBot : EnemyUnitBase
             hits = Physics.OverlapBox(AttackRangeCenterOpp + transform.position, AttackRangeSize);
 
         foreach (Collider hit in hits)
-            hit.gameObject.GetComponent<HeroBase>()?.TakeDamage(0);
+            hit.gameObject.GetComponent<HeroBase>()?.TakeDamage(EnemyStats.damage);
 
 
         //secondo swing dell'arma
         yield return new WaitForSeconds(.500f);
 
+        hits = null;
         if (transform.localScale.x == 1)
             hits = Physics.OverlapBox(AttackRangeCenter + transform.position, AttackRangeSize);
         else
             hits = Physics.OverlapBox(AttackRangeCenterOpp + transform.position, AttackRangeSize);
 
         foreach (Collider hit in hits)
-            hit.gameObject.GetComponent<HeroBase>()?.TakeDamage(0);
+            hit.gameObject.GetComponent<HeroBase>()?.TakeDamage(EnemyStats.damage);
         //apply damage
         yield return new WaitForSeconds(.500f);
         canAttack = true;
@@ -93,9 +94,10 @@ public class BallBot : EnemyUnitBase
     }
 
     //DEBUG
-    protected override void OnTakeDmg()
+    protected override void OnTakeDmg(int damage)
     {
-        base.OnTakeDmg();
+        if (!canBeDamaged) return;
+        base.OnTakeDmg(damage);
         Invoke(nameof(ResetAttack), .5f);
     }
 

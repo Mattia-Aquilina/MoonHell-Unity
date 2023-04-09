@@ -27,7 +27,6 @@ MonoBehaviour:
     exp: 15
     def: 5
     damage: 50
-  Planet: 00000000
   SkillStatsList:
   - key: 0
     val: 0.3
@@ -35,3 +34,7 @@ MonoBehaviour:
     val: 3
   - key: 2
     val: 0.5
+  spawnTime: 15
+  minGameTimeForSpawn: 2
+  maxParallelSpawns: 1
+  Planet: 00000000

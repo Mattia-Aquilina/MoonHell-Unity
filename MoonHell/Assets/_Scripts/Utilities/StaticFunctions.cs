@@ -17,4 +17,8 @@ public static class StaticFunctions
         //calcolo temporaneo
         return (int)(GameManager.kConstLevels*level*Mathf.Pow(2,level) + GameManager.hConstLevels*level*GameManager.baseExp);
     }
+
+    public static int GetDamage(int damage, float targetDefense) => Mathf.RoundToInt(damage - damage * (1 - (100 / (100 + targetDefense))));
+
+    public static float GetSpawnRate() => 1f-Mathf.Pow(100f/(100f+Mathf.Pow(GameManager.Instance.currentGameTime,2f)), 1/5f);
 }

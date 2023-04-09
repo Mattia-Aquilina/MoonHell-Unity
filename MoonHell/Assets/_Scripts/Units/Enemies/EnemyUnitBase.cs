@@ -47,6 +47,7 @@ public abstract class EnemyUnitBase : UnitBase
     }
     protected void Update()
     {
+        base.Update();
         if (GameManager.Instance.isPaused) return;
         if (GameManager.Instance.State != GameState.Hunting) return;
 
@@ -66,13 +67,19 @@ public abstract class EnemyUnitBase : UnitBase
     protected abstract void Movement();
     public override void onDie()
     {
-        //throw new System.NotImplementedException();
-    }
+        //Aggiungiamo i reward al player tramite l'inventory manager
+        NavMeshAgent.enabled = false;
+        rigidbody.constraints = RigidbodyConstraints.FreezeAll;
 
-    protected override void OnTakeDmg()
+
+        ForceState(Death, .5f);
+        Invoke(nameof(Die), .5f);
+    }
+    void Die() => Destroy(gameObject);
+    protected override void OnTakeDmg(int damage)
     {
         //throw new System.NotImplementedException();
-        base.OnTakeDmg();
+        base.OnTakeDmg(damage);
 
         NavMeshAgent.enabled = false;
         rigidbody.isKinematic = false;
@@ -97,10 +104,17 @@ public abstract class EnemyUnitBase : UnitBase
         rigidbody.isKinematic = true;
         NavMeshAgent.enabled = true;
     }
-    public new virtual void TakeDamage(int dmg)
+    public override void TakeDamage(int dmg)
     {
-        _damaged = true;
-        base.TakeDamage(dmg);
+        if (!canBeDamaged) return;
+
+        //calcolo del danno
+        BaseStats s = Stats;
+        var ScaledDamage = StaticFunctions.GetDamage(dmg, _enemyStats.def);
+        s.hp -= ScaledDamage;
+        stats = s;
+
+        OnTakeDmg(ScaledDamage);
     }
     protected override int GetState()
     {

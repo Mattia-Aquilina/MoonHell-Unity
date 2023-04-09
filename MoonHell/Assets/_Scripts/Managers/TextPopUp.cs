@@ -16,12 +16,12 @@ public class TextPopUp : MonoBehaviour
     {
         if (!init) return;
 
-        this.transform.position += new Vector3(0, 0.1f * Time.deltaTime, 0); 
+        this.transform.position += new Vector3(0, 0.1f * Time.deltaTime, 0.1f * Time.deltaTime); 
     }
 
     public void Init(Color textColor, Transform transform, int damage)
     {
-        this.transform.position = new Vector3(transform.position.x , 1,transform.position.z);
+        this.transform.position = new Vector3(transform.position.x , 0.5f,transform.position.z);
         text.color = textColor;
         text.text = damage.ToString();
         init = true;

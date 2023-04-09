@@ -18,7 +18,7 @@ public class OrbMageAttack : MonoBehaviour
         hits = Physics.OverlapBox(RangeCenter + transform.position, Range, Quaternion.identity);
 
         foreach (Collider hit in hits)
-            hit.gameObject.GetComponent<HeroBase>()?.TakeDamage(0);
+            hit.gameObject.GetComponent<HeroBase>()?.TakeDamage((int)damage);
         Invoke(nameof(RemoveGO), 1f);
     }
 

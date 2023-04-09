@@ -42,31 +42,22 @@ public abstract class UnitBase : MonoBehaviour {
         //check sulla posizione degli oggetti
         if (transform.rotation.x != 0) transform.rotation = Quaternion.identity;
         if (transform.position.y > 0) transform.position = new Vector3(transform.position.x, 0, transform.position.z);
-        this.tick();
-        this.checkHp();
+        tick();
+        checkHp();
     }
     /// <summary>
     /// Funzione definita su ogni unità, infligge il danno passato come parametro
     /// </summary>
     /// <param name="dmg">Entità del danno da infliggere</param>
-    public virtual void TakeDamage(int dmg)
-    {
-        if (canBeDamaged)
-        {
-            BaseStats s = this.Stats;
-            s.hp -= dmg;
-            stats = s;
-        }
-        OnTakeDmg();
-    }
+    public abstract void TakeDamage(int dmg);
 
     /// <summary>
     /// Controllo di routine degli hp
     /// </summary>
     public virtual void checkHp()
     {
-        if (this.Stats.hp <= 0)
-            this.onDie();
+        if (Stats.hp <= 0)
+            onDie();
     }
 
     /// <summary>
@@ -93,13 +84,20 @@ public abstract class UnitBase : MonoBehaviour {
     ///================EVENTI UNIT===============///
     ///==========================================///
     ///
+    
+    
+    protected virtual void OnHeal(int healAmount)
+    {
+
+    }
+
     /// <summary>
     /// Metodo eseguito quando l'unità riceve danni
     /// </summary>
-    protected virtual void OnTakeDmg()
+    protected virtual void OnTakeDmg(int damage)
     {
-        Debug.Log("UnitBase - on Take Damage");
-        canBeDamaged = false;
+        PopupManager.Instance.DisplayDamage(this, damage, false);
+        canBeDamaged = false; 
         Invoke(nameof(ResetImmunity), ImmunityTime);
     }
     private void ResetImmunity() => canBeDamaged = true;

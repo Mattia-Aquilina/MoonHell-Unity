@@ -192,11 +192,12 @@ public class HeroBase : UnitBase {
         //da corregere
         if (_attacking)
         {
-            animator.speed = this.HeroStats.ats;
+            animator.speed = HeroStats.ats;
 
             switch (playerState)
             {
                 case PlayerStates.Attack1:
+                    LockState(Attack1, 1 / HeroStats.ats);
                     return Attack1;
                 case PlayerStates.Attack2:
                     return Attack2;
@@ -233,11 +234,10 @@ public class HeroBase : UnitBase {
     }
     public void setAttacking(bool status) => this._attacking = status;
 
-    protected override void OnTakeDmg()
+    protected override void OnTakeDmg(int damage)
     {
-        base.OnTakeDmg();
-        Debug.Log("player took damage");
-       
+        if (!canBeDamaged) return;
+        base.OnTakeDmg(damage);
         OnAfterTakeDamage?.Invoke();
     }
 
@@ -284,6 +284,19 @@ public class HeroBase : UnitBase {
         //Possiamo aggiornare le statistiche
         stats = newBaseStats;
         _heroStats = newHeroStats;
+    }
+
+    public override void TakeDamage(int dmg)
+    {
+        if (!canBeDamaged) return;
+
+        //calcolo del danno
+        BaseStats s = Stats;
+        var ScaledDamage = StaticFunctions.GetDamage(dmg, HeroStats.proiezione);
+        s.hp -= ScaledDamage;
+        stats = s;
+
+        OnTakeDmg(ScaledDamage);
     }
 }
 public enum PlayerStates
